@@ -1,0 +1,674 @@
+/* _________________This is the Header casting style sheet______________________________________*/
+*
+{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0%;
+    
+}
+
+
+.header
+{
+
+    
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px black;
+        color: rgb(5, 68, 104);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 1, 1);
+}
+
+/* _________________This is the navigation bar casting style sheet______________________________________*/
+
+.Navigation_Bar a
+{
+float: left;
+font-size: 20px;
+padding: 20px;
+
+}
+
+nav
+{
+
+    background-color:  rgb(5, 68, 104);;
+display: flex;   
+}
+nav a
+{
+ display: block;   
+    text-decoration: none;
+color: white;
+font-size: 20px;
+}
+a:hover
+{
+    color: rgb(172, 31, 113);
+}
+
+
+.text-align-right
+{
+margin-left: auto;
+}
+
+
+
+
+
+/* __________________________________Slider______________________________________*/
+
+
+.slider
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+margin: 0px;
+}
+.slider figure img
+ {
+      width: 20%; 
+      float: left;
+    
+     }
+     @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: -400%; }
+        }
+.figure
+{
+    position: relative;
+    width: 500%;
+    top: 0px;
+    margin: 0px;
+    height: 80%;
+    animation: 30s slidy infinite; 
+}
+
+
+/* __________________________________heading of every link______________________________________*/
+.heading span
+{
+    position: relative;
+    background-color: rgb(5, 68, 104);
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 55px ;
+    left: 700px;
+color: white;
+}
+
+
+
+
+
+/* _________________This is the instagram heading and images casting style sheet______________________________________*/
+
+
+
+.services
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Instagram_heading
+{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px black;
+    color: rgb(5, 68, 104);
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 1, 1);
+}
+.Instagram_img
+{
+    float: right;
+}
+
+.Twitter_heading
+{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px black;
+    color: rgb(5, 68, 104);
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 1, 1);
+}
+.Twitter_img
+{
+    float: right;
+}
+
+
+
+.TikTok_heading
+{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px black;
+    color: rgb(5, 68, 104);
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 1, 1);
+}
+.TikTok_img
+{
+    float: right;
+}
+
+
+.Youtube_heading
+{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px black;
+    color: brgb(5, 68, 104);;
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 1, 1);
+}
+.Youtube_img
+{
+    float: right;
+}
+
+
+.Telegram_heading
+{
+   
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px black;
+    color: rgb(5, 68, 104);
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 1, 1);
+}
+.Telegram_img
+{
+    float: right;
+}  
+
+
+/* _________________This is the team casting style sheet______________________________________*/
+#team
+{
+    display: flex;
+    flex-direction: column;
+
+overflow: hidden;
+}
+
+#Team .team_heading
+{
+    text-align: center;
+} 
+
+#Team .team_img_1 
+
+{
+    clip-path: circle(18.7% at 33% 25%);
+/*clip-path: circle(Circle size , circle left . circle down);*/
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+
+/* _________________This is the contact us form casting style sheet______________________________________*/
+
+.container
+{
+
+        background-color: lightgray;
+    margin: 15px;    
+    
+    
+}
+
+.container .contact_us
+{
+
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+height: 50%;
+padding-top: 20px;
+padding-bottom: 20px;
+
+
+background-color: gray;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="text"]
+
+{
+    border: none;
+    width: 100%;
+padding: 10px;;
+background-color: white;
+
+}
+
+
+input[type="submit"]
+
+{
+    background-color: lightgreen;
+    width: 100%;
+    color: black;
+  
+border: none;
+height: 30px;
+font-size: 20px;
+font-weight: 100;
+padding: 12px, 20px;
+cursor: pointer;
+}
+
+
+input[type="submit"]:hover
+{
+    color: brown;
+}
+
+
+/* _________________This is the order form casting style sheet______________________________________*/
+
+
+
+
+.container
+{
+
+    
+    margin: 15px;    
+    
+    
+}
+
+.container .order_heading
+{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+height: 50%;
+padding-top: 20px;
+
+background-color: gray;
+}
+
+
+input[type="text"],
+input[type="text"],
+input[type="number"],
+input[type="url"]
+
+
+{
+border: none;   
+    width: 100%;
+padding: 10px;
+background-color: white;
+
+
+}
+
+
+input[type="submit"],
+.button
+{
+    background-color: lightgreen;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+border: none;
+height: 30px;
+font-size: 20px;
+font-weight: 100;
+padding: 12px, 20px;
+cursor: pointer;
+}
+
+
+input[type="submit"]:hover
+{
+    color: brown;
+}
+
+
+/* _________________This is the payment form casting style sheet______________________________________*/
+
+
+
+
+
+.container
+{
+    background-color: lightgray;
+    margin: 15px;
+
+}
+.container .main_heading
+{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+background-color: gray;
+height: 10%;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="number"],
+input[type="date"]
+
+{
+  border: none;
+    width: 100%;
+margin: 5px;
+padding: 10px;
+background-color: white;
+}
+input[type="submit"]
+{
+    background-color: lightgreen;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+border: none;
+height: 30px;
+font-size: 20px;
+font-weight: 100;
+padding: 12px, 20px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover
+{
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+/* _________________This is the pricing casting style sheet______________________________________*/
+
+#Pricing
+{
+    text-align: center;
+
+}
+
+.grid
+
+{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr ); 
+
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, auto);
+  
+}
+ .grid,.package
+{
+    background-color: lightblue;
+    grid-gap: 20px;
+    
+    text-align: center;
+}
+
+/*
+
+#pricing , .flex-next3
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:80px ;
+}
+
+#pricing , .Package-1, .Package-2, .Package-3, .Package-4, .Package-5, .Package-6
+{
+  
+    
+    margin: 30px;
+    margin-left: 100px;
+    background-color: lightblue;
+    width: 1200px;
+    height: 400px;
+    color: black;
+    text-align: center;
+    border: 5px solid black;
+}
+*/
+/*  Signup page*/
+
+input[type="password"]
+{
+border: none;
+    width: 100%;
+margin: 5px;
+padding: 10px;
+background-color: white;
+}
+.float a{
+    float: left;
+    padding: 20px;
+}
+
+/* _________________This is the profile form casting style sheet______________________________________*/
+
+.main-content 
+{
+
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+
+.Profile-Img
+{
+    clip-path: circle(18.7% at 38% 25%);
+margin: 0%;
+
+}
+
+.side-bar-menu
+{
+    position: relative;
+    margin: 0%;
+    top: 0px;
+    width: 340px;
+margin-bottom: 100px;
+}
+
+ ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+ ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+ ul li a:hover,
+ ul li a.active{
+    color: #0c7db1;
+
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+ ul li a:hover .icon,
+ ul li a.active .icon{
+    color: #0c7db1;
+}
+ ul li a:hover:before,
+ ul li a.active:before{
+    display: block;
+}
+
+.sub
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sub,.b1,.b2,.b3,.b4,.b5,.b6
+{
+    
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+margin-left: 200px;
+
+}
+.b1{
+    background-color: salmon;
+
+}
+.b2{
+    background-color: sandybrown;
+
+}
+.b3
+{
+    background-color: seagreen;
+}
+.b4{
+    background-color: sienna;
+}
+.b5
+{
+    background-color: yellowgreen;
+
+}
+.b6{
+    background-color: thistle;
+}
+
+
+/* _________________________________Reviews______________________________________*/
+#Reviews
+{
+display: flex;
+}
+
+
+/* _________________This is the Footer casting style sheet______________________________________*/
+
+.main-footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(5, 68, 104);
+    color: white;
+    margin-bottom: 0px;
+    padding: 40px;
+    margin: 0px;
+
+}
+ .sm-handle a
+{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+font-size: 1em;
+
+}
+.sm-handle a:hover
+{
+    background-color: silver;
+    border-radius: 20px;
+}
+
+.facebook-handle
+{
+    color: #4267B2;
+}
+
+.instagram-handle
+{
+    color: 	#E1306C;
+}
+
+
+.twitter-handle
+{
+    color: #1DA1F2;
+}
+
+
+.linkedin-handle
+{
+    color:#0077b5;
+}
+
+
+.youtube-handle
+{
+    color: #FF0000;
+}
+
+
+
+.footer
+{
+    text-align: center;
+    color: white;
+    background-color: rgb(40, 90, 130);
+font-size: medium;
+}
+
+@media screen and (max-width: 980px) {
+    nav
+    {
+        flex-direction: column;
+    }
+    
+.text-align-right
+{
+margin-left: 0;
+}
+    
+}
+
+
+
+
+
